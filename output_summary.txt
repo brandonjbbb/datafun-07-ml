@@ -1,0 +1,177 @@
+Initial rows of the dataset:
+        Date  AvgTemp  Anomaly  Year
+0 1895-01-01     34.2     -3.2  1895
+1 1896-01-01     34.7     -2.7  1896
+2 1897-01-01     35.5     -1.9  1897
+3 1898-01-01     39.6      2.2  1898
+4 1899-01-01     36.4     -1.0  1899
+
+Final rows of the dataset:
+          Date  AvgTemp  Anomaly  Year
+119 2014-01-01     35.5     -1.9  2014
+120 2015-01-01     36.1     -1.3  2015
+121 2016-01-01     40.8      3.4  2016
+122 2017-01-01     42.8      5.4  2017
+123 2018-01-01     38.7      1.3  2018
+
+DataFrame Info:
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 124 entries, 0 to 123
+Data columns (total 4 columns):
+ #   Column   Non-Null Count  Dtype         
+---  ------   --------------  -----         
+ 0   Date     124 non-null    datetime64[ns]
+ 1   AvgTemp  124 non-null    float64       
+ 2   Anomaly  124 non-null    float64       
+ 3   Year     124 non-null    int32         
+dtypes: datetime64[ns](1), float64(2), int32(1)
+memory usage: 3.5 KB
+
+
+Descriptive Statistics (Including Date Column):
+                                Date  AvgTemp  Anomaly     Year
+count                            124   124.00   124.00   124.00
+mean   1956-07-02 01:09:40.645161280    37.60     0.20  1956.50
+min              1895-01-01 00:00:00    26.10   -11.30  1895.00
+25%              1925-10-01 18:00:00    34.58    -2.82  1925.75
+50%              1956-07-02 00:00:00    37.60     0.20  1956.50
+75%              1987-04-02 06:00:00    40.60     3.20  1987.25
+max              2018-01-01 00:00:00    47.60    10.20  2018.00
+std                              NaN     4.54     4.54    35.94
+
+Missing values in each column:
+      Date  AvgTemp  Anomaly   Year
+0    False    False    False  False
+1    False    False    False  False
+2    False    False    False  False
+3    False    False    False  False
+4    False    False    False  False
+5    False    False    False  False
+6    False    False    False  False
+7    False    False    False  False
+8    False    False    False  False
+9    False    False    False  False
+10   False    False    False  False
+11   False    False    False  False
+12   False    False    False  False
+13   False    False    False  False
+14   False    False    False  False
+15   False    False    False  False
+16   False    False    False  False
+17   False    False    False  False
+18   False    False    False  False
+19   False    False    False  False
+20   False    False    False  False
+21   False    False    False  False
+22   False    False    False  False
+23   False    False    False  False
+24   False    False    False  False
+25   False    False    False  False
+26   False    False    False  False
+27   False    False    False  False
+28   False    False    False  False
+29   False    False    False  False
+30   False    False    False  False
+31   False    False    False  False
+32   False    False    False  False
+33   False    False    False  False
+34   False    False    False  False
+35   False    False    False  False
+36   False    False    False  False
+37   False    False    False  False
+38   False    False    False  False
+39   False    False    False  False
+40   False    False    False  False
+41   False    False    False  False
+42   False    False    False  False
+43   False    False    False  False
+44   False    False    False  False
+45   False    False    False  False
+46   False    False    False  False
+47   False    False    False  False
+48   False    False    False  False
+49   False    False    False  False
+50   False    False    False  False
+51   False    False    False  False
+52   False    False    False  False
+53   False    False    False  False
+54   False    False    False  False
+55   False    False    False  False
+56   False    False    False  False
+57   False    False    False  False
+58   False    False    False  False
+59   False    False    False  False
+60   False    False    False  False
+61   False    False    False  False
+62   False    False    False  False
+63   False    False    False  False
+64   False    False    False  False
+65   False    False    False  False
+66   False    False    False  False
+67   False    False    False  False
+68   False    False    False  False
+69   False    False    False  False
+70   False    False    False  False
+71   False    False    False  False
+72   False    False    False  False
+73   False    False    False  False
+74   False    False    False  False
+75   False    False    False  False
+76   False    False    False  False
+77   False    False    False  False
+78   False    False    False  False
+79   False    False    False  False
+80   False    False    False  False
+81   False    False    False  False
+82   False    False    False  False
+83   False    False    False  False
+84   False    False    False  False
+85   False    False    False  False
+86   False    False    False  False
+87   False    False    False  False
+88   False    False    False  False
+89   False    False    False  False
+90   False    False    False  False
+91   False    False    False  False
+92   False    False    False  False
+93   False    False    False  False
+94   False    False    False  False
+95   False    False    False  False
+96   False    False    False  False
+97   False    False    False  False
+98   False    False    False  False
+99   False    False    False  False
+100  False    False    False  False
+101  False    False    False  False
+102  False    False    False  False
+103  False    False    False  False
+104  False    False    False  False
+105  False    False    False  False
+106  False    False    False  False
+107  False    False    False  False
+108  False    False    False  False
+109  False    False    False  False
+110  False    False    False  False
+111  False    False    False  False
+112  False    False    False  False
+113  False    False    False  False
+114  False    False    False  False
+115  False    False    False  False
+116  False    False    False  False
+117  False    False    False  False
+118  False    False    False  False
+119  False    False    False  False
+120  False    False    False  False
+121  False    False    False  False
+122  False    False    False  False
+123  False    False    False  False
+
+Number of duplicate rows: 0
+
+Model Performance Summary:
+Mean Squared Error (MSE): 21.71
+R-squared (R²) Score: -0.07
+
+Predicted Average High Temperatures:
+Year 2024: 38.11°F
+Year 1890: 36.50°F
