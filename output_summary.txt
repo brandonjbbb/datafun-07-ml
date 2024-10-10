@@ -171,7 +171,3 @@ Number of duplicate rows: 0
 Model Performance Summary:
 Mean Squared Error (MSE): 21.71
 R-squared (R²) Score: -0.07
-
-Predicted Average High Temperatures:
-Year 2024: 38.11°F
-Year 1890: 36.50°F
